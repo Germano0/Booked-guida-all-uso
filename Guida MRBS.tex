@@ -1,0 +1,59 @@
+%\documentclass[italian]{scrreprt}
+\documentclass[italian,a4paper,12pt,oneside]{book}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{forest}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{1}
+\usepackage{float}
+\usepackage{babel}
+\usepackage{microtype} % migliora espansione dei font. Suggerito su ``L'arte di scrivere in LaTeX, pag. 45''
+\usepackage{indentfirst} % indentazione anche su primo paragrafo.  Suggerito su ``L'arte di scrivere in LaTeX, pag. 45''
+\usepackage{booktabs} % serve per le tabelle.   Suggerito su ``L'arte di scrivere in LaTeX, pag. 85''
+\usepackage{caption} % serve per le tabelle.   Suggerito su ``L'arte di scrivere in LaTeX, pag. 85''
+
+
+
+\geometry{textheight=24.2cm,textwidth=16cm}
+\pagestyle{headings}
+\frenchspacing
+
+\date{}
+
+\title{
+\huge Guida all'uso della piattaforma di prenotazione sale
+\\ MRBS (Meeting Room Booking System)
+} 
+\author{Versione 0.01 \\
+Germano Massullo}
+
+\makeindex
+
+\begin{document}
+\frontmatter		% inizia la numerazione con numeri romani
+
+\maketitle
+\tableofcontents
+
+\chapter*{Prefazione}
+La presente guida tratta l'utilizzo della piattaforma MRBS per
+le necessità dell'ateneo
+
+
+\mainmatter		% inizia la numerazione con numeri cardinali
+\chapter{Operazioni post installazione}
+\section{Inizializzazione aree e sale}
+Dopo l'installazione della piattaforma MRBS, occorre popolare il sistema
+con le informazioni che rispecchiano le esigenze dell'ateneo.
+In MRBS ogni \emph{sala} appartiene ad una determinata \emph{area}.
+Pertanto, il primo passo è creare tutte le aree di interesse, che possono
+essere assimilate alle varie macro-aree dell'università (esempio:
+ingegneria, lettere, scienze, ecc.).
+
+\chapter{Prenotazioni e gestione credenziali utenti}
+
+
+
+\end{document}
