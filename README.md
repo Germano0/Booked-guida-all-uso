@@ -1,5 +1,5 @@
-# MRBS - *!!SCRITTURA IN CORSO!!* della guida all'uso
-Bozza guida alla piattaforma MRBS per la prenotazione di aule e risorse.
+# Booked - *!!SCRITTURA IN CORSO!!* della guida all'uso
+Bozza guida alla piattaforma Booked per la prenotazione di aule e risorse.
 La guida è scritta in lingua italiana ed i sorgenti sono in formato .tex.
 Il documento è improntato verso un utilizzo in ambito universitario. È suddiviso in varie parti:
 - utenti;
