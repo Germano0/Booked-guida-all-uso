@@ -1,0 +1,35 @@
+\chapter{Prenotazioni}
+Si va nella pagina del Calendario, si cerca il giorno dove si vuole effettuare la prenotazione,
+si sceglie la riga contenente la risorsa (l'aula) desiderata, e si clicca in corrispondenza dell'orario
+di inizio della propria prenotazione. In ogni caso è possibile modificare i dettagli orari nella schermata
+successiva.
+
+Per fare una prenotazione su più giorni della settimana, andare nella zona ``Ripeti'' come in Figura
+\ref{fig:prenotazione_ripetizione_1.pdf}
+
+\begin{figure}[H]
+\centering{}\includegraphics[scale=0.5]{Immagini/prenotazione_ripetizione_1.pdf}
+\normalsize
+\caption{}
+\label{fig:prenotazione_ripetizione_1.pdf}
+\end{figure}
+
+e cliccare su ``Settimanale''
+
+\begin{figure}[H]
+\centering{}\includegraphics[scale=0.5]{Immagini/prenotazione_ripetizione_2.pdf}
+\normalsize
+\caption{}
+\label{fig:prenotazione_ripetizione_2.pdf}
+\end{figure}
+
+
+Non dimenticare di aggiungere il corso di studi della materia e l'anno corrispondente.
+Nel caso la prenotazione riguardi più corsi di studi, metterne uno per riga
+
+\begin{figure}[H]
+\centering{}\includegraphics[scale=0.5]{Immagini/prenotazione_attributi.pdf}
+\normalsize
+\caption{}
+\label{fig:prenotazione_attributi.pdf}
+\end{figure}

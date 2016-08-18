@@ -1,0 +1,43 @@
+%\documentclass[italian]{scrreprt}
+\documentclass[italian,a4paper,12pt]{scrreprt}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{forest}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{1}
+\usepackage{float}
+\usepackage{babel}
+\usepackage{microtype} % migliora espansione dei font. Suggerito su ``L'arte di scrivere in LaTeX, pag. 45''
+\usepackage{indentfirst} % indentazione anche su primo paragrafo.  Suggerito su ``L'arte di scrivere in LaTeX, pag. 45''
+\usepackage{booktabs} % serve per le tabelle.   Suggerito su ``L'arte di scrivere in LaTeX, pag. 85''
+\usepackage{caption} % serve per le tabelle.   Suggerito su ``L'arte di scrivere in LaTeX, pag. 85''
+
+
+
+\geometry{textheight=24.2cm,textwidth=16cm}
+\pagestyle{headings}
+\frenchspacing
+
+\date{}
+
+\title{
+\huge [*BOZZA*] Guida all'uso della piattaforma di prenotazione sale
+\\ Booked
+}
+\subtitle{Versione amministratori}
+\author{Revisione 0.04 \\
+Germano Massullo}
+
+\makeindex
+
+\begin{document}
+\maketitle
+\tableofcontents
+\input{Capitoli/Introduzione}
+\input{Capitoli/Prenotazioni}
+\input{Capitoli/Amministrazione/Gestione/Gestione_versione_amministratori}
+\input{Capitoli/Amministrazione/Gestione/Gestione_calendari}
+\input{Capitoli/Amministrazione/Gestione/Gestione_risorse}
+\end{document}

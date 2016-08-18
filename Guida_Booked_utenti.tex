@@ -1,7 +1,7 @@
 %\documentclass[italian]{scrreprt}
 \documentclass[italian,a4paper,12pt,oneside]{book}
 \usepackage[T1]{fontenc}
-\usepackage[latin9]{inputenc}
+\usepackage[utf8]{inputenc}
 \usepackage{geometry}
 \usepackage{graphicx}
 \usepackage{forest}
@@ -24,9 +24,9 @@
 
 \title{
 \huge Guida all'uso della piattaforma di prenotazione sale
-\\ MRBS (Meeting Room Booking System)
+\\ Booked
 } 
-\author{Versione 0.01 \\
+\author{Revisione 0.04 \\
 Germano Massullo}
 
 \makeindex
@@ -36,24 +36,7 @@ Germano Massullo}
 
 \maketitle
 \tableofcontents
-
-\chapter*{Prefazione}
-La presente guida tratta l'utilizzo della piattaforma MRBS per
-le necessità dell'ateneo
-
-
 \mainmatter		% inizia la numerazione con numeri cardinali
-\chapter{Operazioni post installazione}
-\section{Inizializzazione aree e sale}
-Dopo l'installazione della piattaforma MRBS, occorre popolare il sistema
-con le informazioni che rispecchiano le esigenze dell'ateneo.
-In MRBS ogni \emph{sala} appartiene ad una determinata \emph{area}.
-Pertanto, il primo passo è creare tutte le aree di interesse, che possono
-essere assimilate alle varie macro-aree dell'università (esempio:
-ingegneria, lettere, scienze, ecc.).
-
-\chapter{Prenotazioni e gestione credenziali utenti}
-
-
-
+\input{Capitoli/Introduzione}
+\input{Capitoli/Prenotazioni}
 \end{document}

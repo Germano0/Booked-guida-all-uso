@@ -1,0 +1,30 @@
+\chapter{Introduzione}
+La presente guida tratta l'utilizzo della piattaforma Booked scheduler
+per le necessità dell'ateneo.
+Per un'agevole comprensione del testo, vengono introdotti alcuni concetti preliminari.
+Booked gestisce tre tipi fondamentali di oggetti:
+\begin{itemize}
+ \item calendari;
+ \item risorse;
+ \item prenotazioni
+\end{itemize}
+\paragraph*{Calendari}\mbox{}\\ %per andare a capo dopo nome paragrafo.
+Si possono avere vari calendari, come ad esempio
+\begin{itemize}
+ \item Economia;
+ \item Ingegneria;
+ \item Lettere;
+ \item Medicina;
+ \item Scienze.
+\end{itemize}
+
+in maniera tale da separare le esigenze di prenotazione delle varie macro aree d'ateneo.
+
+\paragraph*{Risorse}\mbox{}\\ %per andare a capo dopo nome paragrafo.
+Booked gestisce le prenotazioni di risorse, pertanto le aule verranno viste dal programma
+come tali.
+
+
+\paragraph*{Prenotazioni}\mbox{}\\ %per andare a capo dopo nome paragrafo.
+Le prenotazioni vengono effettuate operando sulla pagina che mostra il calendario: si sceglie
+la risorsa da prenotare e si impostano le proprie preferenze.
