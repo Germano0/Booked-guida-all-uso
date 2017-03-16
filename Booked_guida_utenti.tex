@@ -1,5 +1,5 @@
 %\documentclass[italian]{scrreprt}
-\documentclass[italian,a4paper,12pt]{scrreprt}
+\documentclass[italian,a4paper,12pt,oneside]{book}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{geometry}
@@ -23,21 +23,21 @@
 \date{}
 
 \title{
-\huge [*BOZZA*] Guida all'uso della piattaforma di prenotazione sale
+\huge Guida all'uso della piattaforma di prenotazione sale
 \\ Booked
-}
-\subtitle{Versione amministratori}
-\author{Revisione 0.05 \\
+} 
+\author{Revisione 0.08 \\
 Germano Massullo}
 
 \makeindex
 
 \begin{document}
+\frontmatter		% inizia la numerazione con numeri romani
+
 \maketitle
 \tableofcontents
+\mainmatter		% inizia la numerazione con numeri cardinali
 \input{Capitoli/Introduzione}
 \input{Capitoli/Prenotazioni}
-\input{Capitoli/Amministrazione/Gestione/Gestione_versione_amministratori}
-\input{Capitoli/Amministrazione/Gestione/Gestione_calendari}
-\input{Capitoli/Amministrazione/Gestione/Gestione_risorse}
+\input{Capitoli/Note_di_revisione}
 \end{document}

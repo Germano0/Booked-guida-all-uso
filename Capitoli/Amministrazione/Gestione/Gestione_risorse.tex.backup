@@ -7,8 +7,8 @@ Le risorse sono accessibili mediante apposito menù
 \label{fig:amministratore_menu_generale_selezione_risorse.pdf}
 \end{figure}
 
-\subsection*{Creazione nuove risorse}
-Per aggiungere nuove risorse, scorrere il menù risorse fino ad ottenere la visuale di
+\subsection{Creazione nuove risorse (aule)}
+Per aggiungere nuove risorse (aule), scorrere il menù risorse fino ad ottenere la visuale di
 Figura \ref{fig:risorse_vista_generale_creazione.pdf}
 \begin{figure}[H]
 \centering{}\includegraphics[scale=0.5]{Immagini/risorse_vista_generale_creazione.pdf}
@@ -17,8 +17,8 @@ Figura \ref{fig:risorse_vista_generale_creazione.pdf}
 \label{fig:risorse_vista_generale_creazione.pdf}
 \end{figure}
 
-\paragraph*{Nome}
-Per mantenere una coerenza tra tutte le varie macro aree d'ateneo, si dovrà rispettare una precisa
+\paragraph*{Nome}\mbox{}\\ %per andare a capo dopo nome paragrafo.
+Per mantenere una coerenza tra tutte le varie macro aree d'ateneo, si deve rispettare una precisa
 nomenclatura nella creazione di nuove risorse, come nel seguente esempio:
 \begin{figure}[H]
 \centering{}Ing-Aula A1
@@ -31,37 +31,32 @@ perciò:
  \item nome della risorsa.
 \end{enumerate}
 
-\paragraph*{Calendario}
+\paragraph*{Calendario}\mbox{}\\ %per andare a capo dopo nome paragrafo.
 Ogni risorsa di Booked deve essere assegnata ad uno ed un solo calendario.
 Selezionare quello di propria competenza.
 
-\paragraph*{Permessi risorsa}
+\paragraph*{Permessi risorsa}\mbox{}\\ %per andare a capo dopo nome paragrafo.
 \begin{itemize}
  \item Disponibilità NON concessa automaticamente: significa che gli utenti che non hanno privilegi
- di amministratore, non potranno fare richieste prenotazioni della risorsa;
+ di amministratore, non potranno richiedere prenotazioni della risorsa;
  \item Disponibilità concessa automaticamente: gli utenti sono liberi di richiedere prenotazioni.
 \end{itemize}
-Per quanto riguarda l'approvazione delle prenotazioni leggere il capitolo successivo. METTERE
-ETICHETTA
+Per quanto riguarda l'approvazione delle prenotazioni leggere il paragrafo
+``Gestione risorse esistenti''
 
-\paragraph*{Amministratore risorsa}
-Serve a selezionare il gruppo di amministratori che dovrà gestire la risorsa.
-
-La mancata
-selezione di tale opzione non renderà visibile la risorsa nel proprio elenco
-
-
-Booked vede le aule come delle risorse.
-Dato che Questo approccio permette potenzialmente di gestire altri tipi di risorse
-oltre le aule. Perciò Dato che ciò si presta all'utilizzo della piattaforma anche per la prenotazione
-di altri tipi di cose non strettamente legate alle sale, è opportuno classificare le varie
-risorse per ``tipo''.Nel caso sia un'aula,
-assegnarla alla tipologia Aule didattiche.
+\paragraph*{Amministratore risorsa}\mbox{}\\ %per andare a capo dopo nome paragrafo.
+Serve a selezionare il gruppo di amministratori che dovrà gestire la risorsa. La mancata selezione
+di tale opzione non renderà visibile la risorsa nel proprio elenco.
+Scegliere il gruppo
+\begin{figure}[H]
+\centering{}Amministratori Calendario e Risorse
+\normalsize
+\end{figure}
+che appartiene alla propria macro area
 
 
-Non dimenticare di assegnare un gruppo di amministratori.
-
-\subsection*{Gestione risorse esistenti}
+\newpage
+\subsection{Gestione risorse esistenti}
 La gestione di una risorsa è possibile cliccando sul menù nella seguente figura.
 
 
@@ -72,9 +67,11 @@ La gestione di una risorsa è possibile cliccando sul menù nella seguente figur
 \label{fig:risorsa_selezione_configurazione.pdf}
 \end{figure}
 
-Dopo la creazione di nuove risorse, occorre assicurarsi che esse siano disponibili
-per chi effettua le prenotazioni. A tal fine occorre selezionare la proprietà
-Automatica disponibilità immediata (Sì), come in figura
+Dato che Booked può gestire più tipi di risorse (ad esempio, mezzi di trasporto, aule),
+dopo la creazione di nuove risorse, occorre assegnare loro una tipologia. Nel caso delle
+aule selezionare ``Aula Didattica''.
+Inoltre per assicurarsi che esse siano disponibili per chi effettua le prenotazioni,
+si deve selezionare la proprietà ``Automatica disponibilità immediata (Sì)'', come in figura
 \ref{fig:risorsa_configurazione_proprieta_disponibilita.pdf}
 
 \begin{figure}[H]

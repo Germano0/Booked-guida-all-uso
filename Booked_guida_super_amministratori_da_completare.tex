@@ -1,5 +1,5 @@
 %\documentclass[italian]{scrreprt}
-\documentclass[italian,a4paper,12pt,oneside]{book}
+\documentclass[italian,a4paper,12pt]{scrreprt}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{geometry}
@@ -25,18 +25,20 @@
 \title{
 \huge Guida all'uso della piattaforma di prenotazione sale
 \\ Booked
-} 
-\author{Revisione 0.05 \\
+}
+\subtitle{Versione super amministratori}
+\author{Rilascio 0.07 \\
 Germano Massullo}
 
 \makeindex
 
 \begin{document}
-\frontmatter		% inizia la numerazione con numeri romani
-
 \maketitle
 \tableofcontents
-\mainmatter		% inizia la numerazione con numeri cardinali
 \input{Capitoli/Introduzione}
 \input{Capitoli/Prenotazioni}
+\input{Capitoli/Amministrazione/Gestione/Gestione}
+\input{Capitoli/Amministrazione/Gestione/Gestione_calendari}
+\input{Capitoli/Amministrazione/Gestione/Gestione_risorse}
+\input{Capitoli/Amministrazione/Gestione/Gestione_credenziali_utenti}
 \end{document}
