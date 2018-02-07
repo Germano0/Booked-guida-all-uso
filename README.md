@@ -5,4 +5,4 @@ Il documento è improntato verso un utilizzo in ambito universitario. È suddivi
 - utenti;
 - amministratori;
 
-ed ha una struttura modulare in modo tale che la parti in comune tra ad esempio un amministratore ed un utente normale non debbano essere scritte due volte.
+ed ha una struttura modulare in modo tale che la parte in comune tra la guida per amministratori e la guida per utenti non debba essere riscritta due volte.
